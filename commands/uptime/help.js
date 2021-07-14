@@ -9,8 +9,6 @@ module.exports = {
   authorPermission: [],
   ownerOnly: false,
   run: async (client, message, args) => {
-    let github_repo = "https://github.com/naveenpoddar/uptimer";
-    let how_to = "https://github.com/naveenpoddar/uptimer#ussage";
 
     const commands = client.commands
       .filter((c) => c.ownerOnly === false)
